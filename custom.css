@@ -1,0 +1,40 @@
+:root {
+    --bg-color-1: #234f2e;
+    --bg-color-3: #257e3b;
+    --bg-color-2: #fbfbef;
+    --text-color-1: #f1f2de;
+}
+
+body {
+    background-color: var(--bg-color-2);
+}
+
+.dark-div {
+    background-color: var(--bg-color-1);
+    color: var(--text-color-1);
+    
+}
+
+.dark-btn {
+    background-color: var(--bg-color-1);
+    color: var(--text-color-1);
+}
+
+.dark-btn:hover {
+    background-color: var(--bg-color-3);
+    color: var(--text-color-1);
+}
+
+.img-sm{
+    max-width: 600px;
+}
+
+@media (max-width: 600px) {
+    .img-sm {
+        max-width: 300px;
+        padding: 2px;
+    }
+    .small-center{
+        text-align: center;
+    }
+}
